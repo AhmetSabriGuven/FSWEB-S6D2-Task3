@@ -1,0 +1,56 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 2,
+  "numPassedTests": 0,
+  "numFailedTests": 2,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1703564113409,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Yorumlar component'i çalışır hale getirilmiş.",
+          "status": "failed",
+          "title": "Yorumlar component'i çalışır hale getirilmiş.",
+          "duration": 29,
+          "failureMessages": [
+            "expected [] to have a length of 7 but got +0"
+          ],
+          "location": {
+            "line": 14,
+            "column": 17
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Yorumlar doğru şekilde ekrana geliyor",
+          "status": "failed",
+          "title": "Yorumlar doğru şekilde ekrana geliyor",
+          "duration": 6,
+          "failureMessages": [
+            "expected null not to be null // Object.is equality"
+          ],
+          "location": {
+            "line": 22,
+            "column": 22
+          }
+        }
+      ],
+      "startTime": 1703564385431,
+      "endTime": 1703564385466,
+      "status": "failed",
+      "message": "",
+      "name": "/home/projects/vitejs-vite-prvkaq/src/__tests__/index.test.jsx"
+    }
+  ]
+}
