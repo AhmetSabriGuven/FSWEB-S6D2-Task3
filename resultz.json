@@ -4,12 +4,12 @@
   "numFailedTestSuites": 0,
   "numPendingTestSuites": 0,
   "numTotalTests": 2,
-  "numPassedTests": 0,
-  "numFailedTests": 2,
+  "numPassedTests": 2,
+  "numFailedTests": 0,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1703564113409,
-  "success": false,
+  "startTime": 1783929402738,
+  "success": true,
   "testResults": [
     {
       "assertionResults": [
@@ -18,39 +18,27 @@
             ""
           ],
           "fullName": " Yorumlar component'i çalışır hale getirilmiş.",
-          "status": "failed",
+          "status": "passed",
           "title": "Yorumlar component'i çalışır hale getirilmiş.",
-          "duration": 29,
-          "failureMessages": [
-            "expected [] to have a length of 7 but got +0"
-          ],
-          "location": {
-            "line": 14,
-            "column": 17
-          }
+          "duration": 28,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " Yorumlar doğru şekilde ekrana geliyor",
-          "status": "failed",
+          "status": "passed",
           "title": "Yorumlar doğru şekilde ekrana geliyor",
-          "duration": 6,
-          "failureMessages": [
-            "expected null not to be null // Object.is equality"
-          ],
-          "location": {
-            "line": 22,
-            "column": 22
-          }
+          "duration": 8,
+          "failureMessages": []
         }
       ],
-      "startTime": 1703564385431,
-      "endTime": 1703564385466,
-      "status": "failed",
+      "startTime": 1783929403612,
+      "endTime": 1783929403648,
+      "status": "passed",
       "message": "",
-      "name": "/home/projects/vitejs-vite-prvkaq/src/__tests__/index.test.jsx"
+      "name": "C:/Users/AhmetSabriGuven/Documents/GitHub/WorkintechBackend/GunlukProje/S6/FSWEB-S6D2-Task3/src/__tests__/index.test.jsx"
     }
   ]
 }

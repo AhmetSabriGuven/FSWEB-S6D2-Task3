@@ -1,9 +1,14 @@
-const { execSync } = require('child_process');
+import { execSync } from 'child_process';
+import { readFileSync } from 'fs';
+import { dirname, resolve } from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 console.log('\nTestler çalıştırılıyor...\n');
 
 try {
-  execSync('jest --json --outputFile ./resultz.json -c ./jest.config.js --forceExit', {
+  execSync('npm test -- --run', {
     stdio: 'inherit',
     cwd: __dirname,
   });
@@ -11,8 +16,10 @@ try {
   // testler fail olsa da devam et
 }
 
-const user = require("./user.json");
-const results = require("./resultz.json");
+const user = JSON.parse(readFileSync(resolve(__dirname, './user.json'), 'utf8'));
+const results = JSON.parse(
+  readFileSync(resolve(__dirname, './resultz.json'), 'utf8')
+);
 
 (async () => {
   const userId = user.user_id;
